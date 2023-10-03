@@ -20,7 +20,7 @@ jobs:
           # Your ML wokflow commands
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip uninstall fsspec
+          pip uninstall fsspec -y
           pip install fsspec==2022.7.1
           dvc repro -v
           echo "# REPORTS" >> report.md
