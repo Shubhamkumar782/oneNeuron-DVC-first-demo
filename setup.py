@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 ## edit below variables as per your requirements -
 REPO_NAME = "oneNeuron-DVC-first-demo"
-AUTHOR_USER_NAME = "c17hawke"
+AUTHOR_USER_NAME = "Shubhamkumar782"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
 
@@ -13,12 +13,12 @@ LIST_OF_REQUIREMENTS = []
 setup(
     name=SRC_REPO,
     version="0.0.1",
-    author=Shubham Kumar,
+    author="Shubham Kumar",
     description="A small package for DVC",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
-    author_email="sunny.c17hawke@gmail.com",
+    url=f"https://github.com/Shubhamkumar782/oneNeuron-DVC-first-demo.git",
+    author_email="shubhambaranwal782@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
     python_requires=">=3.6",
